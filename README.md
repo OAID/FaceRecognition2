@@ -24,8 +24,16 @@ The release version is 0.1.0, is based on ROCK960 Platform, target OS is Ubuntu 
     
     * [Caffe-HRT](https://github.com/OAID/Caffe-HRT) install
 	Please see https://github.com/OAID/Caffe-HRT/blob/master/docs/installation.md
-	* [Tengine](https://github.com/OAID/Tengine) install
+	
+	* [Tengine](https://github.com/OAID/Tengine) compile
 	Please see https://github.com/OAID/Tengine/blob/master/doc/install.md
+	
+	* [Tengine](https://github.com/OAID/Tengine) install
+	sudo mkdir -p /usr/local/AID/Tengine
+	sudo cp -rpf ~/Tengine/install/*  /usr/local/AID/Tengine
+	wget ftp://ftp.openailab.net/tools/script/gen-pkg-config-pc.sh
+	chmod +x ./gen-pkg-config-pc.sh
+	sudo ./gen-pkg-config-pc.sh
 
 #### Build the runtime shared libraries
 
