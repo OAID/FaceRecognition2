@@ -37,7 +37,7 @@ The release version is 0.1.0, is based on ROCK960 Platform, target OS is Ubuntu 
 
 #### Build the runtime shared libraries
 
-	cd EAIDK-Demo
+	cd FaceRecognition2
 	make -j4
 
 #### run the demo
